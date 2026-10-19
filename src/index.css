@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* Showdown style stat range slider */
+input[type="range"].stat-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #334155;
+  height: 5px;
+  border-radius: 9999px;
+  outline: none;
+}
+input[type="range"].stat-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  border: 1.5px solid #94a3b8;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  transition: transform 0.1s, background-color 0.1s;
+}
+input[type="range"].stat-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  background: #ffffff;
+  border-color: #cbd5e1;
+}
+input[type="range"].stat-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  border: 1.5px solid #94a3b8;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}

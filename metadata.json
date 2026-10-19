@@ -1,0 +1,8 @@
+{
+  "name": "Remix PokéBuilder - Ficha de Treinador Pokémon",
+  "description": "Crie seu personagem treinador Pokémon personalizado com imagem, classe, nível e monte seu time dos sonhos com até 6 Pokémon.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
